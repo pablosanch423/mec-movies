@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@900&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+
+    background-color: #fdfdff;
+    color: #fdfdff;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./images/Funny-Movies-Backgrounds.jpg);
+    background-size:contain;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #393d3f, #62929e);
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+li:hover{
+    background-color: #393d3f;
+    cursor: pointer;
+}
+
+h1{
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #fdfdff;
+    text-transform:uppercase;
+    
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+h3{
+    margin-left: 15px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+
+    background-color: #546a7b;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#payment{
+    display: flex;
+    flex-direction: column  ;
+
+    position: relative;
+    height: 800px;
+    width: 50%;
+    background-color: #393d3f;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+.flex-collumn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    text-align: right;
+}
+
+.mos{
+    margin-left: 200px;
+    margin-top: 46px;
+    border-width: 50px;
+    border: #62929e;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #393d3f;
+}
+
+.acc{
+    display: flex;
+}
+
+.reset{
+    position: relative;
+    top: -5px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #fdfdff;
+    background-color: #546a7b;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.reset:hover{
+    background-color: #546a7b;
+}
+
+.two{
+    display: flex;
+
+}

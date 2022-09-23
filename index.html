@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <header>
+        <h1>mec movies</h1>
+        
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Movies</li>
+                <li>Support</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="flex-container">
+        <section id="payment">
+            
+            <h2>Payment Form</h2>
+            
+            <div class="flex-collumn">  
+                <h3>Billing Information (required)</h3>
+            
+                <div class="flex-row">
+                    <div class="flex-collumn" class="label">
+                        <label for="fname">First Name</label>
+                        <label for="lname">Last Name</label>
+                        <label for="em">Email Address</label>
+                        <label for="st">Street Address</label>
+                        <label for="st2">Street Address(2)</label>
+                        <label for="city">City</label>
+                        <label for="state">State</label>
+                        <label for="zip">Zip/Postal Code</label>
+                        <label for="count">Country</label>
+                        <label for="phone">Phone</label>
+                    </div>
+
+                    <div class="flex-collumn" class="input">
+                        <input type="text" id="fname" name="first name" placeholder="First Name">
+                        <input type="text" id="lname" name="last name" placeholder="Last Name">
+                        <input type="email" id="em" name="email" placeholder="youremail@email.com">
+                        <input type="text" id="st" name="Street Address" placeholder="123 Main St.">
+                        <input type="text" id="st2" name="Street Address2">
+                        <input type="text" id="city" name="city" placeholder="City">
+                            <select id="state" name="state">
+                               <option value="Alabama">Alabama</option> 
+                               <option value="Alaska">Alaska</option> 
+                               <option value="Arizona">Arizona</option> 
+                               <option value="Arkansas">Arkansas</option> 
+                               <option value="California">California</option> 
+                               <option value="Colorado">Colorado</option> 
+                               <option value="Connecticut">Connecticut</option> 
+                               <option value="Delaware">Delaware</option> 
+                               <option value="Florida">Florida</option> 
+                               <option value="Georgia">Georgia</option> 
+                               <option value="Hawaii">Hawaii</option> 
+                               <option value="Idaho">Idaho</option> 
+                               <option value="Illinois">Illinois</option> 
+                               <option value="Indiana">Indiana</option> 
+                               <option value="Iowa">Iowa</option> 
+                               <option value="Kansas">Kansas</option> 
+                               <option value="Kentucky">Kentucky</option> 
+                               <option value="Louisiana">Louisiana</option> 
+                               <option value="Maine">Maine</option> 
+                               <option value="Maryland">Maryland</option> 
+                               <option value="Massachusetts">Massachusetts</option> 
+                               <option value="Michigan">Michigan</option> 
+                               <option value="Minnesota">Minnesota</option> 
+                               <option value="Mississippi">Mississippi</option> 
+                               <option value="Missouri">Missouri</option> 
+                               <option value="Montana">Montana</option> 
+                               <option value="Nebraska">Nebraska</option> 
+                               <option value="Nevada">Nevada</option> 
+                               <option value="New Hampshire">New Hampshire</option> 
+                               <option value="New Jersey">New Jersey</option> 
+                               <option value="New Mexico">New Mexico</option> 
+                               <option value="New York">New York</option> 
+                               <option value="North Carolina">North Carolina</option> 
+                               <option value="North Dakota">North Dakota</option> 
+                               <option value="Ohio">Ohio</option> 
+                               <option value="Oklahoma">Oklahoma</option> 
+                               <option value="Oregon">Oregon</option> 
+                               <option value="Pennsylvania">Pennsylvania</option> 
+                               <option value="Rhode Island">Rhode Island</option> 
+                               <option value="South Carolina">South Carolina</option> 
+                               <option value="South Dakota">South Dakota</option> 
+                               <option value="Tennessee">Tennessee</option> 
+                               <option value="Texas">Texas</option> 
+                               <option value="Utah">Utah</option> 
+                               <option value="Vermont">Vermont</option> 
+                               <option value="Virginia">Virginia</option> 
+                               <option value="Washington">Washington</option> 
+                               <option value="West Virginia">West Virginia</option> 
+                               <option value="Wisconsin">Wisconsin</option> 
+                               <option value="Wyoming">Wyoming</option> 
+                            </select>
+
+                        <input type="text" id="zip" name="zip Code" placeholder="12345">
+                        <input type="text" id="count" name="Country" placeholder="Your Country">
+                        <input type="tel" id="phone" name="phone" placeholder="(123)-456-7891">
+                    </div>
+                    <div class="acc">
+                        <div class="flex-collumn" >
+                            <h4 style="margin-top: 8px; position: relative; left: -17px;">Make an Account (Not Required)</h4>
+                        
+                            <div style="position: relative; top: -5px;">
+                                <div class="flex-row">
+                                    <label for="user">Username</label>
+                                    <input type="text" id="user" name="username">
+                                </div>
+
+                                <div class="flex-row">
+                                    <label for="pass">Password</label>
+                                    <input type="password" id="pass" name="password">
+                            </div>
+
+                                <div class="flex-row">
+                                <label for="q">Save Password?</label>
+                                <input type="checkbox" id="q" name="question">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Credit Card (required)</h3>
+
+                    <div class="flex-row">
+                        <div class="card">
+                            <input type="radio" id="AE" name="AE">
+                            <label for="AE" class="img"><img src="./images/images.png" alt="American Express"></label>
+
+                            <input type="radio" id="dis" name="dis">
+                            <label for="dis" class="img"><img src="./images/Discover-logo.jpg" alt="Discover"></label>
+
+                            <input type="radio" id="mast" name="mast">
+                            <label for="mast" class="img"><img src="./images/cbd5fbb692be0458cc6977c3d27aad67--logo-photos.jpg" alt="Master Card"></label>
+
+                            <input type="radio" id="Visa" name="Visa">
+                            <label for="Visa" class="img"><img src="./images/full-color-800x450-cee226a48bed4177b90351075b332227.jpg" alt="Visa"></label>
+                        </div>
+                    </div>
+
+                    <div class="flex-row">
+                        <div class="flex-collumn cc" class="label">
+                            <label for="cc">Credit Card Number</label>
+                            <label for="exp">Exiration Date</label>
+                            <label for="csc">CSC</label>
+                        </div>
+
+                        <div class="flex-collumn input cc" >
+                            <input type="text" id="cc" name="Credit Card">
+                            <input type="month" id="exp" name="month">
+                            <input type="text" id="csc" name="CSC">
+                        </div>
+                    </div>
+                
+                <div class="submit sub flex-row two">
+                    <a href="./page2.html"  >Submit</a>
+
+                    <input class="reset" type="reset">
+                </div>
+            </div>
+        </section>
+
+    </div>
+   
+    <footer>
+        <h1>Mec Movies</h1>
+    </footer>
+</body>
+</html>
